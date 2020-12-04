@@ -30,10 +30,10 @@ class testRps(unittest.TestCase):
         self.paper_player = Player("Mr Paper", "paper")
 
     def test_rock_player_wins_1(self):
-         self.assertEqual("Player 1 wins with rock!", rock_paper_scissors(self.rock_player, self.scissors_player))
+        self.assertEqual("Player 1 wins with rock!", rock_paper_scissors(self.rock_player, self.scissors_player))
 
     def test_rock_player_wins_2(self):
-         self.assertEqual("Player 2 wins with rock!", rock_paper_scissors(self.scissors_player, self.rock_player))
+        self.assertEqual("Player 2 wins with rock!", rock_paper_scissors(self.scissors_player, self.rock_player))
 
     def test_scissors_player_wins_1(self):
         self.assertEqual("Player 1 wins with scissors!", rock_paper_scissors(self.scissors_player, self.paper_player))
