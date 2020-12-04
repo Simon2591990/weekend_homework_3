@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    background-color: rgb(78, 105, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
 }
 
 #top {
     display: grid;
-    color: white;
-    background-color: blueviolet;
     grid-template-columns: 1fr auto;
-    padding: 10px;
     align-items: center; 
 
 }
@@ -19,3 +19,4 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 20px
 }
+
