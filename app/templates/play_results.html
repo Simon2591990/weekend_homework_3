@@ -3,14 +3,19 @@
 {%block content%}
 <html>
     <body>
-            <div id=play_results>
-            <h2>{{winner.name}} Wins!</h2>
-            <p>
-                {{player.name}} played {{player.choice}}
-            </p>
-            <p>
-                Computer played {{computer.choice}}
-            </p>
+        <div id=play_results>
+            {% if winner == None %}
+            <h2>Draw!</h2>  
+            {% else %}
+            <h2>{{winner.name}} Wins!</h2>    
+            {% endif %}
+        <p>
+        
+            {{player.name}} played {{player.choice}}
+        </p>
+        <p>
+            Computer played {{computer.choice}}
+        </p>
         </div>  
     </body>
 </html>
