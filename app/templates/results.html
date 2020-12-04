@@ -1,16 +1,15 @@
+{%extends "base.html"%}
+
+{%block content%}
 <html>
-    <body>
-        <h1>{{winner.name}} Wins!</h1>
+    <body id="results">
+        <h2>{{winner.name}} Wins!</h2>
         <p>
             {{player_1.name}} played {{player_1.choice}}
         </p>
         <p>
             {{player_2.name}} played {{player_2.choice}}
         </p>
-        
-
-
-        
-
     </body>
 </html>
+{%endblock%}

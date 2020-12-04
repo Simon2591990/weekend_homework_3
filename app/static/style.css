@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#top {
+    display: grid;
+    color: white;
+    background-color: blueviolet;
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+    align-items: center; 
+
+}
+#top > ul{
+    list-style: none;
+}
+#top > ul > li{
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 20px
+}
