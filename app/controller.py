@@ -27,11 +27,6 @@ def rps_results(player_1_choice, player_2_choice):
 
 @app.route("/play", methods=["GET"])
 def play():
-    # computer = Player("Computer", "rock")
-    # player_name = request.form["player_name"]
-    # player_choice = request.form["player_choice"]
-    # player = Player(player_name, player_choice)
-    # winner = Game(computer, player)
     return render_template("play.html")
 
 @app.route("/play_results", methods=["POST"])

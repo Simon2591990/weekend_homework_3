@@ -1,22 +1,60 @@
 body {
-    background-color: rgb(78, 105, 255);
-    color: white;
+    background-color: rgb(0, 57, 114);
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px
+    padding: 10px;
+    
+        
+}
+a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 #top {
     display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center; 
-
+    grid-template-columns: auto;
+    background-color: rgb(100, 123, 255);
+    margin: 10px;
+    padding: 10px; 
 }
 #top > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr;
     list-style: none;
+    padding-inline-start: 0px;    
+    align-content: space-between;
 }
 #top > ul > li{
-    color: white;
-    background-color: rgb(255, 255, 255);
-    padding: 20px
+    background-color: rgb(0, 57, 114);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+#play {
+    display: flex;
+    background-color: rgb(100, 123, 255);
+    margin: 10px;
+    padding: 10px; 
+    padding-top: 20px; 
+}
+#play_results{
+    background-color: rgb(100, 123, 255);
+    margin: 10px;
+    padding: 10px;
+}
+#rules{
+    background-color: rgb(100, 123, 255);
+    margin: 10px;
+    padding: 10px;
 }
 
+#play_results > button{
+    color: rgb(100, 123, 255);
+    background-color: rgb(0, 57, 114);
+}
+#play_button{
+    color: white;
+    background-color: rgb(0, 57, 114);
+}
